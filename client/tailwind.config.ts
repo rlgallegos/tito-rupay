@@ -10,14 +10,16 @@ const config: Config = {
     extend: {
         colors: {
             'primary': '#F6F6F6',
-            'secondary': '#355845',
-            'tertiary': '#262C2A',
+            'secondary': '#EBEAEA',
+            'green-1': '#14362A',
+            'green-2': '#1C4837',
             'accent': '#006400',
         },
         backgroundImage: {
-            'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-            'gradient-conic':
-            'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+            'bw-forest': "url('/images/bw-forest.jpg')",
+            'bw-desk': "url('/images/bw-desk.jpg')",
+            'dark-desk': "url('/images/darker-desk.jpg')",
+            'green-placeholder': "url('/images/green-placeholder.png')",
         },
     },
   },
