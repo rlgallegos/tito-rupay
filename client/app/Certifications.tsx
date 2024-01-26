@@ -1,5 +1,4 @@
-
-
+import { IoMdRibbon } from "react-icons/io";
 
 
 const Certifications: React.FC = () => {
