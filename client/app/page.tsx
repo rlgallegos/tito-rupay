@@ -4,7 +4,7 @@ import WhoWeAre from './WhoWeAre'
 import Testimonials from './Testimonials'
 import Certifications from './Certifications'
 import NavBar from './components/NavBar'
-
+import Contact from './Contact'
 
 
 export default function Home() {
@@ -17,6 +17,7 @@ export default function Home() {
             <Certifications />
         </div>
         <Testimonials />
+        <Contact />
     </main>
   )
 }
