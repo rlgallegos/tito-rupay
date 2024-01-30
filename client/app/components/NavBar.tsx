@@ -1,10 +1,10 @@
-
+import Socials from "./Socials"
 
 
 
 const NavBar: React.FC = () => {
     return (
-        <nav className="h-[120px] w-full bg-primary z-10 absolute top-0 flex flex-col justify-evenly items-center text-black">
+        <nav className="h-[120px] w-full bg-primary z-10 absolute top-0 flex flex-col justify-evenly items-center">
 
             <h1 className="text-4xl">Roberto Rupay</h1>
             <div className="w-full flex justify-evenly">

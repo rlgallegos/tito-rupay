@@ -8,7 +8,6 @@ const Contact: React.FC = () => {
         <div className="h-screen w-full bg-primary flex flex-col items-center justify-center relative">
             <h1 className="text-4xl z-10">Contact</h1>
 
-
             <div className="w-1/2 h-1/5 flex items-center justify-center z-10">
                 <h1>For any questions or for information on setting up group sessions, don't hesitate to reach out:</h1>
             </div>
