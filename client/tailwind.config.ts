@@ -20,6 +20,10 @@ const config: Config = {
             'bw-desk': "url('/images/bw-desk.jpg')",
             'dark-desk': "url('/images/darker-desk.jpg')",
             'green-placeholder': "url('/images/green-placeholder.png')",
+            'hands-touching': "url('/images/hands-grabbing.jpg')",
+            'forest-path': "url('/images/forest-path.jpg')",
+            'forest-stone': "url('/images/forest-stone.jpg')",
+
         },
     },
   },
