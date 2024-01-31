@@ -1,5 +1,5 @@
 
-import { SiInstagram, SiFacebook, SiTiktok } from "react-icons/si";
+import { SiInstagram, SiFacebook, SiLinkedin } from "react-icons/si";
 
 
 
@@ -9,7 +9,7 @@ const Socials: React.FC = () => {
         <div className="w-[180px] flex justify-evenly p-4">
             <SiInstagram />
             <SiFacebook />
-            <SiTiktok />
+            <SiLinkedin />
         </div>
     )
 }
