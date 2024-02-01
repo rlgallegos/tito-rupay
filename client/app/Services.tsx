@@ -26,7 +26,7 @@ const Services: React.FC = () => {
             
             <div className="absolute w-full h-full flex justify-evenly items-center text-xl ">
 
-                <div className={`w-1/4 h-1/2 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500
+                <div className={`w-1/4 h-1/2 cursor-pointer hover:scale-105 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500
                 ${selected == 'coaching' || selected == '' ? 'opacity-1' : 'opacity-0 translate-x-4 pointer-events-none'}
                 ${selected == 'coaching' ? '' : ''} `}
                 onClick={() => handleClick('coaching')}>
@@ -34,7 +34,7 @@ const Services: React.FC = () => {
                     <h2 className="mt-6">1:1 Coaching</h2>
                 </div>
 
-                <div className={`w-1/4 h-1/2 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500
+                <div className={`w-1/4 h-1/2 cursor-pointer hover:scale-105 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500
                 ${selected == 'business' || selected == '' ? 'opacity-1' : 'opacity-0 translate-x-4 pointer-events-none'}
                 ${selected == 'business' ? '-translate-x-[31.25vw]' : ''}  `}
                 onClick={() => handleClick('business')}>
@@ -42,7 +42,7 @@ const Services: React.FC = () => {
                     <h2 className="mt-6">Business Coaching</h2>
                 </div>
 
-                <div className={`w-1/4 h-1/2 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500
+                <div className={`w-1/4 h-1/2 cursor-pointer hover:scale-105 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500
                 ${selected == 'group' || selected == '' ? 'opacity-1' : 'opacity-0 translate-x-4 pointer-events-none'}
                 ${selected == 'group' ? '-translate-x-[62.5vw]' : ''}  `}
                 onClick={() => handleClick('group')}>
@@ -57,6 +57,11 @@ const Services: React.FC = () => {
                         </div>
                     </div>
                     <h2 className="mt-6">Group Coaching</h2>
+                </div>
+
+                <div className={`h-1/2 bg-secondary transition-all absolute left-[37.5vw]
+                ${selected === '' ? 'w-0 duration-100' : 'delay-500 w-[56.25vw] border-2 border-green-1 duration-500'}  `}>
+
                 </div>
 
             </div>
