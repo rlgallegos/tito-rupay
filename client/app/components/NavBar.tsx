@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 import Socials from "./Socials"
 
 
@@ -11,10 +13,10 @@ const NavBar: React.FC = () => {
                 <button className="w-[200px] border border-accent bg-accent hover:bg-secondary rounded-xl ">Book Your FREE Consultation</button>
             </div>
             <div className="w-full flex justify-evenly text-lg">
-                <p>Appointments</p>
-                <p>Services</p>
-                <p>Testimonials</p>
-                <p>Contact</p>
+                <Link href="#services">Services</Link>
+                <Link href="#testimonials">Testimonials</Link>
+                <Link href="/appointments">Appointments</Link>
+                <Link href="/contact">Contact</Link>
             </div>
         </nav>
     )

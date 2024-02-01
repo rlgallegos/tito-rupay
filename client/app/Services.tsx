@@ -5,7 +5,6 @@
 import { useState } from "react";
 import { MdHandshake, MdAccountTree, MdApartment, MdBusinessCenter, MdWork, MdOutlineInsights, MdExtension, MdFace, MdFace3, MdFace4, MdFace6 } from "react-icons/md";
 
-import { useTransition, animated } from 'react-spring'
 
 const Services: React.FC = () => {
     const [selected, setSelected] = useState<string>('')
@@ -21,7 +20,7 @@ const Services: React.FC = () => {
     console.log(selected)
 
     return (
-        <div className="h-[66vh] w-full relative">
+        <div id="services" className="h-[66vh] w-full relative">
             <div className="absolute h-full w-full bg-forest-stone bg-center bg-cover bg-fixed"></div>
             
             <div className="absolute w-full h-full flex justify-evenly items-center text-xl ">

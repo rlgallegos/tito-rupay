@@ -4,7 +4,7 @@
 
 const Testimonials: React.FC = () => {
     return (
-      <div className='h-screen w-full bg-primary flex flex-col justify-between'>
+      <div id="testimonials" className='h-screen w-full bg-primary flex flex-col justify-between'>
 
         <div className="w-full h-1/2 flex">
             <div className="h-full w-1/4 border border-black">
