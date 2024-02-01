@@ -11,12 +11,12 @@ const Services: React.FC = () => {
 
                 <div className="w-1/4 h-1/2 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12">
                     <MdHandshake className="w-full h-1/2"/>
-                    <h2>1:1 Coaching</h2>
+                    <h2 className="mt-6">1:1 Coaching</h2>
                 </div>
 
                 <div className="w-1/4 h-1/2 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12">
                     <MdBusinessCenter className="w-full h-1/2"/>
-                    <h2>Business Coaching</h2>
+                    <h2 className="mt-6">Business Coaching</h2>
                 </div>
 
                 <div className="w-1/4 h-1/2 bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12">
@@ -30,8 +30,7 @@ const Services: React.FC = () => {
                             <MdFace6 className="w-1/2 h-full" />
                         </div>
                     </div>
-                    
-                    <h2>Group Coaching</h2>
+                    <h2 className="mt-6">Group Coaching</h2>
                 </div>
 
             </div>

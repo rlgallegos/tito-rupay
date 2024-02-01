@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Contact Methods */}
-            <div className="border border-black w-2/3 h-1/3 flex justify-evenly z-10 bg-primary">
+            <div className="border-2 border-green-1 w-2/3 h-1/3 flex justify-evenly z-10 bg-primary">
                 <a href="mailto:example.email@gmail.com" className="w-1/4 h-full">
                     <div className="w-full h-full flex flex-col justify-evenly py-12">
                         <HiEnvelope className="h-1/4 w-full" />
@@ -38,8 +38,8 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Image */}
-            <div className="absolute h-full w-1/2 right-0 bg-blue-700 flex">
-                <Image src='/images/contact-2.jpg' alt="mobile phone" layout="fill"  className=""/>
+            <div className="absolute h-full w-1/2 right-0 flex">
+                <Image src='/images/contact-2-transparent.png' alt="plant" layout="fill"  className=""/>
             </div>
         </div>
     )

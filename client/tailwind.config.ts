@@ -23,7 +23,6 @@ const config: Config = {
             'hands-touching': "url('/images/hands-grabbing.jpg')",
             'forest-path': "url('/images/forest-path.jpg')",
             'forest-stone': "url('/images/forest-stone.jpg')",
-
         },
     },
   },
