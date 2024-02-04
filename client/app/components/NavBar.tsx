@@ -6,7 +6,7 @@ import Socials from "./Socials"
 
 const NavBar: React.FC = () => {
     return (
-        <nav className="h-[120px] w-full bg-primary z-10 absolute top-0 flex flex-col justify-between items-center pt-4">
+        <nav className="h-[120px] w-full bg-primary z-10 absolute top-0 flex flex-col justify-between items-center pt-4 border-b-2 border-green-1">
             <div className="w-full flex items-center justify-evenly">
                 <Socials />
                 <h1 className="text-4xl">Roberto Rupay</h1>
