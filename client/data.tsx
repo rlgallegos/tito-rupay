@@ -1,3 +1,5 @@
+// Interfaces
+
 export interface ServiceType {
     title: string
     text: string
@@ -10,6 +12,13 @@ export interface ServiceTypes {
     [key: string]: ServiceType
 }
 
+export interface TestimonialType {
+    name: string
+    text: string
+}
+
+
+// Services
 
 const coaching: ServiceType = {
     title: 'coaching',
@@ -35,9 +44,25 @@ const group: ServiceType = {
         'Mutual Inspiration'
     ]
 }
-
 export const services: ServiceTypes = {
     coaching: coaching,
     business: business,
     group: group
 }
+
+
+// Testimonials
+
+const bobby: TestimonialType = {
+    name: "Bobby Gallegos",
+    text: "Roberto is the best!"
+}
+const tayler: TestimonialType = {
+    name: "Tayler Pugliese",
+    text: "He's been an incredible help."
+}
+const pikachu: TestimonialType = {
+    name: 'Pikachu',
+    text: "Pika pika! Pika pika pika pika pika...."
+}
+export const testimonials: TestimonialType[] = [bobby, tayler, pikachu]
