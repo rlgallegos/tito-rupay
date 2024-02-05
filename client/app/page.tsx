@@ -5,6 +5,7 @@ import Certifications from './Certifications'
 import NavBar from './components/NavBar'
 import Contact from './Contact'
 import Services from './Services'
+import Divider from './components/Divider'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <WhoWeAre />
         <Services />
         {/* <Certifications /> */}
+        <Divider />
         <Testimonials />
         <Contact />
     </main>

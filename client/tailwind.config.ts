@@ -24,6 +24,7 @@ const config: Config = {
             'forest-path': "url('/images/forest-path.jpg')",
             'forest-stone': "url('/images/forest-stone.jpg')",
             'brick-split': "url('/images/brick-split.jpg')",
+            'green-mountains': "url('/images/green-mountains.png')",
         },
     },
   },
