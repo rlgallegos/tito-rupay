@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { MdHandshake, MdAccountTree, MdApartment, MdBusinessCenter, MdWork, MdOutlineInsights, MdExtension, MdFace, MdFace3, MdFace4, MdFace6 } from "react-icons/md";
+import { FaCheck } from "react-icons/fa";
+
 
 import { ServiceTypes, ServiceType, services } from "@/data";
 
@@ -67,7 +69,12 @@ const Services: React.FC = () => {
                 ${selected === '' ? 'w-0 duration-100' : 'delay-500 w-[56.25vw] border-2 border-green-1 duration-500 p-6'} `}>
                     <p className={`${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>{serviceDescription}</p>
                     <div className="w-full flex justify-evenly">
-                        {serviceBullets.map(bull => <p className={`${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>- {bull}</p>)}
+                        {serviceBullets.map(bull =>
+                        <div className={`flex gap-0 ${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>
+                            <FaCheck className={`${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `} />
+                            <p className={`${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>{bull}</p>
+                        </div>
+                            )}
                     </div>
                 </div>
 

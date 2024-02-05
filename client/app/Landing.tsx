@@ -4,10 +4,10 @@ import Image from "next/image"
 
 const Landing: React.FC = () => {
   return (
-    <div className='h-screen w-full bg-secondary flex justify-between pt-[120px] text-black relative'>
+    <div className='h-screen w-full bg-brick-split bg-cover bg-center flex justify-between pt-[120px] text-black relative'>
         <div className="h-full w-1/2 flex flex-col justify-evenly px-8">
 
-            <div className="bg-primary border-2 border-green-1 flex flex-col justify-evenly gap-2 text-3xl px-12 py-6">
+            <div className="bg-secondary border-2 border-[#2F4B38] flex flex-col justify-evenly gap-2 text-3xl px-12 py-6">
                 <h1>Certified</h1>
                 <h1 className="indent-8">Accountability</h1>
                 <h1 className="indent-16">& Life Coach</h1>
