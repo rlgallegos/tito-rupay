@@ -31,7 +31,7 @@ const Testimonials: React.FC = () => {
                 <div className="flex flex-col gap-4 w-4/5">
                     <ImQuotesLeft className="text-center w-full" />
                     <p>A much longer text here about how Roberto has had an incredible influence on this person / business. How he has changed so much about this entity's life and how he would 10/10 recommend him.</p>
-                    <p className="w-full text-right">- Import Entity's Name</p>
+                    <p className="w-full text-right">- Important Entity's Name</p>
                 </div>
             </div>
         </div>
