@@ -16,7 +16,7 @@ export default function Home() {
         <WhoWeAre />
         <Services />
         {/* <Certifications /> */}
-        <Divider />
+        <Divider text={'Make the Change You Want Today!'} />
         <Testimonials />
         <Contact />
     </main>

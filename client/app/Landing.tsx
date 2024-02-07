@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Landing: React.FC = () => {
   return (
-    <div className='h-screen w-full bg-brick-split bg-cover bg-center flex justify-between pt-[120px] text-black relative'>
+    <div className='h-screen w-full bg-primary flex justify-between pt-[120px] text-black relative'>
         <div className="h-full w-1/2 flex flex-col justify-evenly px-8">
 
             <div className="bg-secondary border-2 border-[#2F4B38] flex flex-col justify-evenly gap-2 text-3xl px-12 py-6">
@@ -22,7 +22,7 @@ const Landing: React.FC = () => {
             </div>
 
         </div>
-        <div className="relative w-1/2 h-full overflow-visible">
+        <div className="relative w-1/2 h-full overflow-hidden">
   <Image
     src="/images/roberto-headshot-resized.jpeg"
     alt="headshot"
