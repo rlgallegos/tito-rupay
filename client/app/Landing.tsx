@@ -7,7 +7,7 @@ const Landing: React.FC = () => {
     <div className='h-screen w-full bg-primary flex justify-between pt-[120px] text-black relative'>
         <div className="h-full w-1/2 flex flex-col justify-evenly px-8">
 
-            <div className="bg-secondary border-2 border-[#2F4B38] flex flex-col justify-evenly gap-2 text-3xl px-12 py-6">
+            <div className="bg-[#0C3206] text-primary border-2 border-[#2F4B38] flex flex-col justify-evenly gap-2 text-3xl px-12 py-6">
                 <h1>Certified</h1>
                 <h1 className="indent-8">Accountability</h1>
                 <h1 className="indent-16">& Life Coach</h1>

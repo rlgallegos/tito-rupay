@@ -14,6 +14,11 @@ const config: Config = {
             'green-1': '#14362A',
             'green-2': '#1C4837',
             'accent': '#006400',
+            'light-green': '#0C3206',
+            'mid-green': '#0A230B',
+            'dark-green': '#021707',
+            'light-gold': '#F7F56F',
+            'dark-gold': '#AC7F2E'
         },
         backgroundImage: {
             'bw-forest': "url('/images/bw-forest.jpg')",

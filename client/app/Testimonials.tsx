@@ -23,7 +23,7 @@ const Testimonials: React.FC = () => {
 
 
     return (
-      <div id="testimonials" className='h-[66vh] w-full bg-green-900 flex flex-col justify-between text-xl relative'>
+      <div id="testimonials" className='h-[66vh] w-full bg-primary flex flex-col justify-between text-xl relative'>
         <div className="w-full h-full top-0 left-0 absolute "></div>
 
         <div className="w-full h-1/2 flex items-center justify-center z-10">
