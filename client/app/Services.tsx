@@ -28,11 +28,11 @@ const Services: React.FC = () => {
 
     return (
         <div id="services" className="h-[66vh] w-full relative">
-            <div className="absolute h-full w-full bg-forest-stone bg-center bg-cover bg-fixed"></div>
+            <div className="absolute h-full w-full bg-blurry-gold bg-center bg-cover bg-fixed"></div>
             
             <div className="absolute w-full h-full flex justify-evenly items-center text-xl ">
 
-                <div className={`w-1/4 h-1/2 cursor-pointer hover:bg-primary bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500 ease-in-out
+                <div className={`w-1/4 h-1/2 cursor-pointer hover:bg-primary bg-secondary border-2 border-dark-green flex flex-col items-center justify-evenly py-12 transition-all duration-500 ease-in-out
                 ${selected == 'coaching' || selected == '' ? 'opacity-1' : 'opacity-0 translate-x-4 pointer-events-none'}
                 ${selected == 'coaching' ? '' : ''} `}
                 onClick={() => handleClick('coaching')}>
@@ -40,7 +40,7 @@ const Services: React.FC = () => {
                     <h2 className="mt-6">1:1 Coaching</h2>
                 </div>
 
-                <div className={`w-1/4 h-1/2 cursor-pointer hover:bg-primary bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500 ease-in-out
+                <div className={`w-1/4 h-1/2 cursor-pointer hover:bg-primary bg-secondary border-2 border-dark-green flex flex-col items-center justify-evenly py-12 transition-all duration-500 ease-in-out
                 ${selected == 'business' || selected == '' ? 'opacity-1' : 'opacity-0 translate-x-4 pointer-events-none'}
                 ${selected == 'business' ? '-translate-x-[31.25vw]' : ''}  `}
                 onClick={() => handleClick('business')}>
@@ -48,7 +48,7 @@ const Services: React.FC = () => {
                     <h2 className="mt-6">Business Coaching</h2>
                 </div>
 
-                <div className={`w-1/4 h-1/2 cursor-pointer hover:bg-primary bg-secondary border-2 border-green-1 flex flex-col items-center justify-evenly py-12 transition-all duration-500 ease-in-out
+                <div className={`w-1/4 h-1/2 cursor-pointer hover:bg-primary bg-secondary border-2 border-dark-green flex flex-col items-center justify-evenly py-12 transition-all duration-500 ease-in-out
                 ${selected == 'group' || selected == '' ? 'opacity-1' : 'opacity-0 translate-x-4 pointer-events-none'}
                 ${selected == 'group' ? '-translate-x-[62.5vw]' : ''}  `}
                 onClick={() => handleClick('group')}>
@@ -66,11 +66,11 @@ const Services: React.FC = () => {
                 </div>
 
                 <div className={`h-1/2 bg-secondary transition-all absolute left-[37.5vw] overflow-hidden indent-5 flex flex-col items-center justify-evenly
-                ${selected === '' ? 'w-0 duration-100' : 'delay-500 w-[56.25vw] border-2 border-green-1 duration-500 p-6'} `}>
+                ${selected === '' ? 'w-0 duration-100' : 'delay-500 w-[56.25vw] border-2 border-dark-green duration-500 p-6'} `}>
                     <p className={`${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>{serviceDescription}</p>
                     <div className="w-full flex justify-evenly">
                         {serviceBullets.map(bull =>
-                        <div className={`flex gap-0 ${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>
+                        <div key={bull} className={`flex gap-0 ${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>
                             <FaCheck className={`${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `} />
                             <p className={`${selected === '' ? 'opacity-0' : 'opacity-1 delay-1000 duration-500'} `}>{bull}</p>
                         </div>

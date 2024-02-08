@@ -6,7 +6,7 @@ import Socials from "./components/Socials"
 
 const Contact: React.FC = () => {
     return (        
-        <div className="w-full h-[33vh] bg-secondary flex">
+        <div className="w-full h-[33vh] bg-dark-green text-primary flex">
             <div className="w-1/3 py-6 h-full flex flex-col justify-evenly items-center">
                 <Socials />
                 <div className="flex gap-4 items-center w-2/3">
@@ -24,9 +24,9 @@ const Contact: React.FC = () => {
             </div>
             <div className="w-2/3 h-full flex flex-col justify-center">
                 <div className="flex justify-evenly items-center">
-                    <Image width={200} height={200} alt="post" src='/images/sample-square-pic.png' />
-                    <Image width={200} height={200} alt="post" src='/images/sample-square-pic.png' />
-                    <Image width={200} height={200} alt="post" src='/images/sample-square-pic.png' />
+                    <Image width={200} height={200} alt="post" src='/images/sample-square-pic.png' className="bg-primary" />
+                    <Image width={200} height={200} alt="post" src='/images/sample-square-pic.png' className="bg-primary" />
+                    <Image width={200} height={200} alt="post" src='/images/sample-square-pic.png' className="bg-primary" />
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Testimonials: React.FC = () => {
     let quoteDivs: (ReactNode | null)[] = []
     testimonials.forEach(testimonial => {
         quoteDivs.push(
-            <div className="w-1/5 flex items-center justify-center bg-primary p-6 h-3/4 border-2 border-green-1 z-10">
+            <div key={testimonial.name} className="w-1/5 flex items-center justify-center bg-primary p-6 h-3/4 border-2 border-green-1 z-10">
                 <div className="flex flex-col gap-4 w-2/3">
                     <ImQuotesLeft className="text-center w-full" />
                     <p>{testimonial.text}</p>

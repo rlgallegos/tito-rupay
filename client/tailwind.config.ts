@@ -30,6 +30,8 @@ const config: Config = {
             'forest-stone': "url('/images/forest-stone.jpg')",
             'brick-split': "url('/images/brick-split.jpg')",
             'green-mountains': "url('/images/green-mountains.png')",
+            'blurry-gold': "url('/images/blurry-gold.jpg')",
+            'park-path': "url('/images/park-path.jpg')",
         },
     },
   },
