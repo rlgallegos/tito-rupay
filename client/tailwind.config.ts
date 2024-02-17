@@ -32,6 +32,7 @@ const config: Config = {
             'green-mountains': "url('/images/green-mountains.png')",
             'blurry-gold': "url('/images/blurry-gold.jpg')",
             'park-path': "url('/images/park-path.jpg')",
+            'marble': "url('/images/marble.jpg')",
         },
     },
   },

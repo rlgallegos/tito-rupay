@@ -4,11 +4,12 @@ import Image from "next/image"
 
 const Landing: React.FC = () => {
   return (
-    <div className='h-screen w-full bg-park-path bg-cover bg-center flex justify-between pt-[120px] text-black relative'>
+    <div className='h-screen w-full bg-marble bg-cover bg-center flex justify-between pt-[120px] text-black relative'>
+        <div className="bg-black w-full h-full opacity-90 absolute top-0"></div>
+
         <div className="h-full w-1/2 flex flex-col justify-evenly">
 
-            <div className="bg-gradient-to-r from-dark-green via-light-green to-transparent
-            text-primary flex flex-col justify-evenly gap-2 text-5xl px-12 py-6 w-[66vw]">
+            <div className="text-dark-green flex flex-col justify-evenly gap-2 text-5xl px-12 py-6 w-[66vw]">
                 <h1>Discover Strengths</h1>
                 <h1 className="indent-16">Overcome Fears</h1>
                 <h1 className="indent-32">Live Authentically</h1>
@@ -31,14 +32,6 @@ const Landing: React.FC = () => {
             />
         </div> */}
 
-
-        {/* <div className="w-1/3 h-1/4 text-3xl flex items-center px-16 bg-primary">
-            <div className="flex flex-col border-2 border-green-1">                
-                <h1>Certified</h1>
-                <h1>Accountability &</h1>
-                <h1>Life Coach</h1>
-            </div>
-        </div> */}
     </div>
   )
 }
